@@ -8,8 +8,11 @@
 }
 
 *{
-    background-color: var(--cor-de-fundo);
     color: var(--branco);
+}
+
+body{
+    background-color: var(--cor-de-fundo);
 }
 
 span{
@@ -44,6 +47,15 @@ span{
      border-bottom: 4px solid var(--botao-ativo);
      border-left: 2px solid var(--botao-ativo);
      border-right: 2px solid var(--botao-ativo);
+}
+
+.abaconteudo{
+    background-color: var(--texto-fundo);
+    display: none;
+}
+
+.abaconteudo, .ativo{
+    display:flex
 }
 
 .ativo{
