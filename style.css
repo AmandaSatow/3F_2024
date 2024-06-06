@@ -1,3 +1,5 @@
+
+
 :root{
     --cor-de-fundo:#1e1e1e;
     --verde: #6FFF57;
@@ -50,15 +52,18 @@ span{
 }
 
 .abaconteudo{
-    background-color: var(--texto-fundo);
     display: none;
 }
 
-.abaconteudo, .ativo{
-    display:flex
+.abaconteudo.ativo{
+    display:block
 }
 
-.ativo{
+.abas-textos{
+    background-color: var(--botao-ativo);
+}
+
+.botao.ativo{
     background-color: var(--botao-ativo);
     border-bottom: 4px solid var(--verde);
 }
